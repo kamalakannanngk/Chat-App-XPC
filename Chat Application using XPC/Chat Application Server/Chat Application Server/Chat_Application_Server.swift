@@ -63,7 +63,7 @@ class Chat_Application_Server: NSObject, Chat_Application_ServerProtocol {
             
             print("Client Team ID: \(clientTeamID)")
             
-            if clientTeamID == "UT4NRUFU6N." {
+            if clientTeamID == "UT4NRUFU6N." { // Use your own Team ID
                 NSLog("Client Authorized Successfully!")
             } else {
                 NSLog("Unauthorized Client. Rejected!")
